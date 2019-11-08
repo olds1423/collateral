@@ -39,7 +39,7 @@ author: Chris Olds
 email: Chris.olds@guidantfinancial.com
 
 baseurl: "/collateral.git"
-url: ""
+url: "https://olds1423.github.io"
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
