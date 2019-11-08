@@ -656,7 +656,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 /* Normal */
 @media screen and (min-width: 961px) and (max-width: 1620px) { /* Main */
   #main > section, #main article { padding: 3em 0; }
-  #main section.cover { padding: 1em 0; }
+  #main section.cover { padding: 5em 0; }
   /* Header */
   #nav ul hr { margin: auto 1.25em; } }
 
