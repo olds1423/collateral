@@ -38,8 +38,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 author: Chris Olds
 email: Chris.olds@guidantfinancial.com
 
-baseurl: https://github.com/olds1423
-url: /collateral.git
+baseurl: "/collateral.git"
+url: ""
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
