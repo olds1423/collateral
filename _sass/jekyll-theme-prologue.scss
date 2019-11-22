@@ -488,7 +488,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'space-between');
-		background: #222629 url('images/overlay.png');
+		background: #F5F5F5;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -573,7 +573,7 @@
 				a {
 					display: block;
 					padding: 0.5em 1.5em 0.5em 1.5em;
-					color: rgba(255, 255, 255, 0.5);
+					color: #000000;
 					text-decoration: none;
 					outline: 0;
 					border: 0;
@@ -587,7 +587,7 @@
 						&::before {
 							position: absolute;
 							left: 0;
-							color: rgba(255, 255, 255, 0.5);
+							color: #424142;
 							text-align: center;
 							width: 1.25em;
 							line-height: 1.75em;
@@ -597,8 +597,8 @@
 					&.active {
 						background: rgba(0, 0, 0, 0.15);
 						box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-						color: #fff;
-
+						color: #1e70b8;
+						font-weight: bold;
 						span::before {
 							color: #1e70b8;
 						}
@@ -699,19 +699,19 @@
 			}
 
 			&.shade-one {
-				background-color: #81918E;
+				background-color: #eeeeee;
 			}
 
 			&.shade-two {
-				background-color: #f5fafa;
+				background-color: #ffffff ;
 			}
 
 			&.shade-three {
-				background-color: #ecf1f1;
+				background-color: #eeeeee;
 			}
 
 			&.shade-four {
-				background-color: #e8edec;
+				background-color: #ffffff ;
 			}
 		}
 	}
