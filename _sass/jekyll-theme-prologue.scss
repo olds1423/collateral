@@ -259,6 +259,9 @@
 		&.fit {
 			display: block;
 			width: 100%;
+			border-left: 1px solid #424141;
+			border-right: 1px solid #424141;
+			
 		}
 
 		&.featured {
@@ -313,6 +316,10 @@
 
 	ol {
 		list-style: decimal;
+	}
+	
+	.page {
+		font-size: 22px !important;
 	}
 
 /* Form */
@@ -461,11 +468,16 @@
 			margin: 0;
 			padding: 1em;
 			font-size: 0.8em;
+			border: 1px solid #424141;
 
 			h3 {
 				font-size: 1em;
 			}
 		}
+		footer {
+			border: 1px solid #424141;
+			background: #fff;
+			}
 	}
 
 /* Icons */

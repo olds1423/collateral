@@ -470,7 +470,7 @@ section ul, section ol, article ul, article ol { padding-left: 0.25em; margin-le
 
 .image.avatar48 img { width: 48px; height: 48px; }
 
-.image.fit { display: block; width: 100%; }
+.image.fit { display: block; width: 100%; border-left: 1px solid #424141; border-right: 1px solid #424141; }
 
 .image.featured { display: block; width: 100%; margin: 0 0 2em 0; }
 
@@ -492,6 +492,8 @@ ul.icons li { display: inline-block; }
 ul.icons a { display: inline-block; width: 2em; height: 2em; line-height: 2em; text-align: center; border: 0; }
 
 ol { list-style: decimal; }
+
+.page { font-size: 22px !important; }
 
 /* Form */
 form label { display: block; text-align: left; margin-bottom: 0.5em; }
@@ -539,9 +541,11 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 /* Item */
 .item { box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05); margin-bottom: 40px; }
 
-.item header { color: #666; text-align: center; background: #fff; margin: 0; padding: 1em; font-size: 0.8em; }
+.item header { color: #666; text-align: center; background: #fff; margin: 0; padding: 1em; font-size: 0.8em; border: 1px solid #424141; }
 
 .item header h3 { font-size: 1em; }
+
+.item footer { border: 1px solid #424141; background: #fff; }
 
 /* Icons */
 .icon { text-decoration: none; }
